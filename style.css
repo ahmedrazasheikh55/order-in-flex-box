@@ -1,0 +1,118 @@
+ /*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    /* justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+align-items: stretch;
+    border-radius: 4px;
+    font-size: 25px;
+    flex-wrap: wrap;
+    height: 70vh;
+}
+.class{
+    border: 2px solid black;
+    background-color: royalblue;
+}
+.class1{
+    background-color: rgb(217, 255, 127);
+}
+.class2{
+    background-color: rgb(237, 30, 30);
+}
+.class3{
+    background-color: rgb(26, 11, 187);
+}
+.class4{
+    background-color: rgb(84, 6, 103);
+}
+.class5{
+    background-color: rgb(194, 13, 85);
+}
+.class6{
+    background-color: rgb(193, 251, 0);
+} */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    border: 4px solid black;
+    background-color: blue;
+    width: 600px;
+    height: 400px;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-between;
+}
+.class{
+  border: 2px solid black;
+}
+.class1{
+    background-color: rebeccapurple;
+order: 5;
+    
+}
+.class2{
+    background-color: rgb(227, 66, 34);
+  order: 4;
+
+}
+.class3{
+    background-color: sandybrown;
+    order: 3;
+
+}
+.class4{
+    background-color: aqua;
+    order: 2;
+
+}
+.class5{
+    background-color: rgb(123, 26, 113);
+    order: 1;
+
+}
+.class6{
+    background-color: rgb(52, 197, 27);
+    order: -1;
+
+}
+.class7{
+    background-color: rgb(33, 179, 174);
+    order: -2;
+
+}
+.class8{
+    background-color: rgb(75, 83, 156);
+    order: -3;
+
+}
+.class9{
+    background-color: rgb(238, 83, 207);
+    order: -4;
+
+}
+.class10{
+    background-color: rgb(194, 86, 124);
+    order: -5;
+
+}
+.class11{
+background-color: darksalmon;
+order: 6;
+    
+}
+
+.class12{
+    order: -6;
+background-color: deeppink;
+}
